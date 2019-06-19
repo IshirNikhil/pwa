@@ -7,20 +7,34 @@
     <meta name="keywords" content="Bootstrap, Landing page, Template, Business, Service">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="author" content="Grayrids">
+    <meta name="theme-color" content="#5533ff"/>
     <title>Slick - Bootstrap 4 Template</title>
     <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="img/2.png" type="image/png">
+    <link rel="manifest" href="webmanifest.json">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/LineIcons.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.theme.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/nivo-lightbox.css">
-    <link rel="stylesheet" href="css/main.css">    
-    <link rel="stylesheet" href="css/responsive.css">
-
+    <link defer rel="stylesheet" href="css/bootstrap.min.css">
+    <link defer rel="stylesheet" href="css/animate.css">
+    <link defer rel="stylesheet" href="css/LineIcons.css">
+    <link defer rel="stylesheet" href="css/owl.carousel.css">
+    <link defer rel="stylesheet" href="css/owl.theme.css">
+    <link defer rel="stylesheet" href="css/magnific-popup.css">
+    <link defer rel="stylesheet" href="css/nivo-lightbox.css">
+    <link preload rel="stylesheet" href="css/main.css" as="style">    
+    <link preload rel="stylesheet" href="css/responsive.css" as="style">
+    <script>
+    if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('./sw.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+    </script>
   </head>
   
   <body>
@@ -1284,6 +1298,7 @@
                   <input type="email" class="form-control" placeholder="Enter Email">
                   <span><i class="lni-chevron-right"></i></span>
                 </div>
+                <p style="font-size:12px;"><a style=" color:rgba(255,255,255,0.36)" href="http://uideck.com" rel="nofollow">Crafted by UIdeck</a></p>
               </div>
             </div>
             <!-- End Col -->
@@ -1298,7 +1313,6 @@
             <div class="row">
               <div class="col-md-12">
                 <div class="site-info text-center">
-                  <p>Crafted by <a href="http://uideck.com" rel="nofollow">UIdeck</a></p>
                 </div>              
                 
               </div>
