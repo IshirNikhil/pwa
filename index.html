@@ -22,11 +22,10 @@
     <link defer rel="stylesheet" href="css/nivo-lightbox.css">
     <link preload rel="stylesheet" href="css/main.css" as="style">    
     <link preload rel="stylesheet" href="css/responsive.css" as="style">
-    <script src="sw.js"></script>
     <script>
     if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
-    navigator.serviceWorker.register('./sw.js').then(function(registration) {
+    navigator.serviceWorker.register('sw.js').then(function(registration) {
       // Registration was successful
       console.log('ServiceWorker registration successful with scope: ', registration.scope);
     }, function(err) {
