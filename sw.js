@@ -1,25 +1,25 @@
 
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
-  '',
-  'css/bootstrap.min.css',
-  'css/animate.css',
-  'css/LineIcons.css',
-  'css/owl.carousel.css',
-  'css/owl.theme.css',
-  'css/magnific-popup.css',
-  'css/nivo-lightbox.css',
-  'css/main.css',
-  'css/responsive.css',
-  'js/jquery-min.js',
-  'js/popper.min.js',
-  'js/bootstrap.min.js',
-  'js/jquery.nav.js',
-  'js/jquery.easing.min.js',
-  'js/nivo-lightbox.js',
-  'js/jquery.magnific-popup.min.js',
-  'js/main.js',
-  'img/*'
+  './',
+  './css/bootstrap.min.css',
+  './css/animate.css',
+  './css/LineIcons.css',
+  './css/owl.carousel.css',
+  './css/owl.theme.css',
+  './css/magnific-popup.css',
+  './css/nivo-lightbox.css',
+  './css/main.css',
+  './css/responsive.css',
+  './js/jquery-min.js',
+  './js/popper.min.js',
+  './js/bootstrap.min.js',
+  './js/jquery.nav.js',
+  './js/jquery.easing.min.js',
+  './js/nivo-lightbox.js',
+  './js/jquery.magnific-popup.min.js',
+  './js/main.js',
+  './img/*'
 ];
 
 
