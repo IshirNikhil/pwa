@@ -1,7 +1,7 @@
 
 var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
-  '/',
+  '',
   'css/bootstrap.min.css',
   'css/animate.css',
   'css/LineIcons.css',
@@ -19,7 +19,7 @@ var urlsToCache = [
   'js/nivo-lightbox.js',
   'js/jquery.magnific-popup.min.js',
   'js/main.js',
-  '2.png'
+  'img/*'
 ];
 
 
