@@ -19,7 +19,7 @@ var urlsToCache = [
   './js/nivo-lightbox.js',
   './js/jquery.magnific-popup.min.js',
   './js/main.js',
-  './img/*'
+  './img/2.png'
 ];
 
 

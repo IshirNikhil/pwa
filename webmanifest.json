@@ -4,8 +4,8 @@
     "theme_color": "#5533ff",
     "background_color": "#ffffff",
     "display": "standalone",
-    "scope": "pwa/",
-    "start_url": "pwa/",
+    "scope": "https://ishirnikhil.github.io/pwa/",
+    "start_url": "https://ishirnikhil.github.io/pwa/",
     "icons": [
       {
         "src": "assets/icons/icon-72.png",
